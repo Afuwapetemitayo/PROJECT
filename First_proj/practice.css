@@ -1,0 +1,119 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+/* Header */
+/* .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+} */
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+   
+
+/* .navbar a {
+    display:
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+} */
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.login-button {
+    background-color: #4CAF50;
+
+    border: none;
+    border-radius: 5%;
+    color: white;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+/* Main Content */
+
+body {
+    max-width: 50%;
+    margin: 0 auto;
+}
+.main{
+    /* text-align: center;  */
+     max-width: 50%;
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+.nav-buttons {
+    margin: 20px;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.next-button {
+    background-color: #006400;
+}
+
+.intro-section {
+    background-color: #32de84;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.tutorial-button {
+    background-color: #006400;
+    margin-top: 15px;
+}
+
+.video-button {
+    background-color: #333;
+    margin-top: 10px;
+}
+
+
+.learning-section, .examples-section {
+    margin: 30px 0;
+}
+
+.examples-button {
+    background-color: gray;
+    margin-top: 10px;
+}
+.main-footer {
+    text-align: center;
+    color: #32de84;
+    padding: 8px 0;
+ }

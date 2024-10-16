@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.header1 input{
+    width: 250px;
+    height: 25px;
+    border-radius: 20px;
+    padding: 5 10px;
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px; */
+}
+
+    .login-button{
+        background-color: #4CAF50;
+        border: none;
+        border-radius: 10%;
+        color: white;
+        padding: 8px 12px;
+    
+    }
+.header2 {
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.logo {
+    color: green;
+    font-size: 35px;
+    font-weight: 750;
+}
+
+.login-button{
+    background-color: #32de84;
+}
+
+.main{
+    margin-top: 20px;
+    /* font-size: 20; */
+
+}
+
+.nav-buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    /* background-color: #006400; */
+    border-radius: 5px
+}
+
+.nav-buttons button {
+    background-color: green;
+    border-radius: 5px;
+    width: 70px;
+}
+/* .next-button {
+    margin-top: 20px;
+    background-color: #006400;
+    border-radius: 5px;
+} */
+
+.intro-section {
+    background-color: #32de84;
+    padding: 20px;
+    margin: 20px auto;
+    /* max-width: 600px; */
+    border-radius: 10px;
+    text-align: left;
+}
+
+button{
+    border: transparent;
+    padding: 10px;
+    
+} 
+ .tutorial-buttons{
+    text-decoration: white;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} 
+
+.free-button {
+    width: max-content;
+    background-color: #03C03C;
+    color: white;
+}
+
+.video-button{
+    max-width: max-content;
+    background-color: black;
+    color: white;
+}
+
+/* .tutorial-button {
+    background-color: #c54b23;
+    margin-top: 15px;
+}
+
+.video-button {
+    background-color: #333;
+    margin-top: 10px;
+}
+
+
+.learning-section,{
+     */
+
+     .learning-section{
+        margin-top: 20px;
+        margin-bottom: 20px;
+     }
+     .examples-section{
+        margin-top: 20px;
+
+     }
+
+.examples-button {
+    background-color: gray;
+    border: transparent;
+    padding: 10 auto;
+    margin-top: 30px;
+}
+.main-footer {
+    text-align: center;
+    color: #32debf;
+    padding: 8px 0;
+ }
