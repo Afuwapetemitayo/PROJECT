@@ -8,17 +8,19 @@ body {
     margin: 0 auto;
 }
 
-.header1 input{
+/* .header1 input{
+    outline: none;
     width: 250px;
     height: 25px;
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 5 10px;
-    
+     */
 }
 a {
     text-decoration: none;
     color: white;
 }
+
 
 .header1 {
     display: flex;

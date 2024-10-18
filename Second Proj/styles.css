@@ -1,0 +1,77 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  background-color: #063a66;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Form Container */
+.form-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  max-width: 90%;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #063a66;
+}
+
+/* Form Inputs */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.row input, .row select, .row textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.row input[type="file"] {
+  padding: 5px;
+}
+
+.row small {
+  color: #666;
+  font-size: 12px;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.buttons button {
+  background-color: #ff8800;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: #ff6600;
+}

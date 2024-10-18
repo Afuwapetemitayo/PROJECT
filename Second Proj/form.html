@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Application Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>Job Application Form Widget</h2>
+    <form action="#" method="POST" enctype="multipart/form-data">
+      <div class="row">
+        <input type="text" placeholder="First name" required>
+        <input type="text" placeholder="Last name" required>
+      </div>
+      <div class="row">
+        <input type="email" placeholder="Email" required>
+        <input type="tel" placeholder="Phone" required>
+      </div>
+      <div class="row">
+        <select required>
+          <option value="" disabled selected>Select country</option>
+          <option value="Nigeria">Nigeria</option>
+          <option value="USA">USA</option>
+          <option value="UK">UK</option>
+        </select>
+      </div>
+      <div class="row">
+        <input type="text" placeholder="City" required>
+      </div>
+      <div class="row">
+        <input type="text" placeholder="Address" required>
+      </div>
+      <div class="row">
+        <select required>
+          <option value="" disabled selected>Choose desired position</option>
+          <option value="Designer">Designer</option>
+          <option value="Developer">Developer</option>
+          <option value="Manager">Manager</option>
+        </select>
+      </div>
+      <div class="row">
+        <textarea placeholder="Additional info" rows="4"></textarea>
+      </div>
+      <div class="row">
+        <label>Upload Your CV</label>
+        <input type="file" accept=".pdf,.doc" required>
+        <small>Only pdf / doc. Size: less than 1 MB</small>
+      </div>
+
+      <!-- Picture Upload Row -->
+      <div class="row">
+        <label>Upload Your Picture</label>
+        <input type="file" accept="image/*" required>
+        <small>Only images (jpg, png, gif). Max size: 2 MB</small>
+      </div>
+
+      <div class="row buttons">
+        <button type="reset">Reset</button> 
+        <button type="submit">Send</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
