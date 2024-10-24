@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Assigment</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+<body>
+    <header class="header1">
+                    <h2>Job Application Form Widget</h2>
+        <div class="form-container">
+            
+            <!-- <form action="#" method="POST" enctype="multipart/form-data">  -->
+                    <input type="text" id="t" placeholder="FirstName">
+                    <input type="text" id="t" placeholder="Surname"> <br><br>
+                    <input type="text" id="t" placeholder="Email">
+                    <input type="text"  id="t" placeholder="Phone">
+    </div>
+    <div class="row">
+        <select required>
+                <option value="" disabled selected>Select country</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+        </select>
+    <div class="row">
+                <input type="text" placeholder="City">
+    </div>
+    <div class="row">
+                <input type="text" placeholder="Address">
+    </div>
+    <div class="row">
+        <select required>
+            <option value="" disabled selected > Choose preffered position</option>
+            <option value="Graphic">Graphic Designer</option>
+            <option value="Software">Software Programmer</option>
+            <option value="Md">Manager</option>
+        </select>
+    <div class="row">
+            <textarea placeholder="additional-info" rows="7"></textarea>
+    </div>
+    <!-- this is the picture bar -->
+
+    <div class="row">
+            <label> Upload Your CV</label>
+            <input type="file" accept=".doc, .pdf" required>
+            <small>Only pdf / doc. Size: less than 1 MB</small>
+    </div>
+    <div class="row buttons">
+        <button type="reset">Reset</button> 
+        <button type="submit">Send</button>
+    </div>
+</form>
+    </div>
+</body>
+</html>

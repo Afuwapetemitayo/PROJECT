@@ -4,30 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Job Application Form</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="new.css">
 </head>
 <body>
-  <div class="form-container">
-    <h2>Job Application Form Widget</h2>
-    <form action="#" method="POST" enctype="multipart/form-data">
+  <header>
+        <h2>Job Application Form Widget</h2>
+  </header>
+  <!-- </header> -->
+     <div class="form-container">
+              
+      <input type="text" id="t" placeholder="FirstName">
+      <input type="text" id="t" placeholder="Surname"> <br><br>
+      <input type="text" id="t" placeholder="Email">
+      <input type="text"  id="t" placeholder="Phone">
+      
       <div class="row">
-        <input type="text" placeholder="First name" required>
-        <input type="text" placeholder="Last name" required>
+            <select required>
+            <option value="" disabled selected>Select country</option>
+            <option value="Nigeria">Nigeria</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            </select>
       </div>
       <div class="row">
-        <input type="email" placeholder="Email" required>
-        <input type="tel" placeholder="Phone" required>
-      </div>
-      <div class="row">
-        <select required>
-          <option value="" disabled selected>Select country</option>
-          <option value="Nigeria">Nigeria</option>
-          <option value="USA">USA</option>
-          <option value="UK">UK</option>
-        </select>
-      </div>
-      <div class="row">
-        <input type="text" placeholder="City" required>
+            <input type="text" placeholder="City" required>
       </div>
       <div class="row">
         <input type="text" placeholder="Address" required>
@@ -43,20 +43,21 @@
       <div class="row">
         <textarea placeholder="Additional info" rows="4"></textarea>
       </div>
-      <div class="row">
-        <label>Upload Your CV</label>
+      <div class="row1">
+       
+        <label >Upload Your CV</label>
         <input type="file" accept=".pdf,.doc" required>
         <small>Only pdf / doc. Size: less than 1 MB</small>
       </div>
 
       <!-- Picture Upload Row -->
-      <div class="row">
+      <!-- <div class="row">
         <label>Upload Your Picture</label>
         <input type="file" accept="image/*" required>
         <small>Only images (jpg, png, gif). Max size: 2 MB</small>
-      </div>
+      </div> -->
 
-      <div class="row buttons">
+      <div class="row-buttons">
         <button type="reset">Reset</button> 
         <button type="submit">Send</button>
       </div>

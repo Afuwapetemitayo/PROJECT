@@ -1,0 +1,52 @@
+
+  }
+  
+  .formselection {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+  }
+  
+  .row input, .row select, .row textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .row input[type="file"] {
+    padding: 5px;
+  }
+  
+  .Picture small {
+    color: #666;
+    font-size: 12px;
+  }
+  
+  /* Buttons */
+  .buttons {
+    display: flex;
+    /* justify-content: space-between; */
+  }
+  
+  .buttons button {
+    background-color: #ff8800;
+    position: right;
+    
+    display: flex;
+    flex-direction: column-reverse;
+
+    color: white;
+    border: none;
+    margin-right: 10px;
+    padding: 10px ;
+    border-radius:
+    
+    cursor: pointer;
+  }
+  
+  .buttons button:hover {
+    background-color: #ff6600;
+  }
+  
